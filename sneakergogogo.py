@@ -70,6 +70,7 @@ def read_sneakers():
     cursor.execute("select * from sneakers")
     print(cursor.fetchall())
 
+
 conn = lite.connect('sneakers.db')
 print("Opened database successfully")
 
